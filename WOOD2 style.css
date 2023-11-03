@@ -1,0 +1,171 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Space+Mono&display=swap');
+</style>
+
+html{
+    background: rgba(246, 243, 236, 0.59);
+}
+
+body{
+    width: 1440px;
+    height: 1536px;
+
+}
+
+.header{
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+   
+}
+
+h1{
+    color: #695536;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 92px;
+    margin-top: 104px;
+    margin-bottom:47px ;
+
+}
+.btn-group{
+    color: #695536;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    align-items: flex-start;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 92px;
+    margin:128px 90px 71px 640px ;
+    text-decoration: none;
+
+}
+
+a{
+    text-decoration: none; 
+    color: inherit;
+}
+
+.div-line{
+    width: 1232px;
+    height: 1px;
+    background: #695536;
+    border:1;
+    margin-left:104px ;
+    margin-right: 104px;
+    
+}
+
+main{
+    width: 1439px;
+    height: 1186px;
+}
+.works1{
+    width: 373px;
+    height: 373px;
+    flex-shrink: 0;
+    margin: 115px 87px 43px 86px;
+    gap:74px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.works2{
+    width: 373px;
+    height: 373px;
+    flex-shrink: 0;
+    margin-left: 86px;
+    margin-right: 86px;
+    flex-direction: row;
+    gap:74px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.p1{
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.6px;
+    margin: 43px 83px 58px 176px;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+.cole{
+    margin-right: 253px;
+}
+.dazzle{
+    margin-right: 165px;
+
+}
+
+.p2{
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.6px;
+    margin: 43px 142px 115px 64px;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+
+.chair{
+    margin-right: 142px;
+    }
+.ring{
+    margin-left: 226px;
+}
+
+footer{
+    background: #E5E2DE;
+    width: 1440px;
+    height: 132px;
+    flex-direction: row;
+    display: flex;
+}
+.icon{
+    width: 218px;
+    height: 54px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    margin-top: 37px;
+    margin-right: 74px;
+    margin-bottom: 41px;
+   align-content: center;
+   justify-content: space-between;
+}
+.bt-back{
+    color: #000;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.6px;
+    padding: 49px 730px 49px 145px;
+    outline:none;
+    border-width: 0px;
+    background: transparent;
+    text-decoration:none;
+    
+    
+}
